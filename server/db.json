@@ -1,0 +1,454 @@
+{
+  "users": [
+    {
+      "id": "usr_c1",
+      "name": "Aarav Patel",
+      "email": "aarav@citizen.in",
+      "role": "citizen",
+      "phone": "+91 98765 43210"
+    },
+    {
+      "id": "usr_c2",
+      "name": "Vikram Mehta",
+      "email": "vikram@citizen.in",
+      "role": "citizen",
+      "phone": "+91 98123 45678"
+    },
+    {
+      "id": "usr_a1",
+      "name": "Rajesh Verma (Officer)",
+      "email": "admin@civicfix.gov.in",
+      "role": "admin",
+      "department": "Municipal Administration"
+    },
+    {
+      "id": "usr_w1",
+      "name": "Ramesh Kumar",
+      "email": "ramesh@worker.in",
+      "role": "worker",
+      "area": "Zone 4 - Roads",
+      "phone": "+91 99887 76655"
+    },
+    {
+      "id": "usr_w2",
+      "name": "Suresh Patel",
+      "email": "suresh@worker.in",
+      "role": "worker",
+      "area": "Zone 2 - Electrical",
+      "phone": "+91 98777 66554"
+    },
+    {
+      "id": "usr_w3",
+      "name": "Priya Sundaram",
+      "email": "priya@worker.in",
+      "role": "worker",
+      "area": "Zone 1 - Sanitation",
+      "phone": "+91 97654 32109"
+    },
+    {
+      "id": "usr_c_1789055150711",
+      "name": "Rahul Sharma",
+      "email": "rahul@citizen.in",
+      "password": "password123",
+      "role": "citizen",
+      "phone": "+91 99888 77766",
+      "area": "Central Zone"
+    },
+    {
+      "id": "usr_c_1791894165147",
+      "name": "ANISHA G",
+      "email": "anisha.g.2024.cse@rajalakshmi.edu.in",
+      "password": "anisha",
+      "role": "citizen",
+      "phone": "+919176320707",
+      "area": "Central Zone"
+    },
+    {
+      "id": "usr_c_1791947456134",
+      "name": "Priya Sharma 817",
+      "email": "priya817@citizen.in",
+      "password": "password123",
+      "role": "citizen",
+      "phone": "+91 98765 12345",
+      "area": "Zone 1 - Central Ward"
+    },
+    {
+      "id": "usr_c_1791949625626",
+      "name": "Rohit Verma",
+      "email": "rohit@citizen.in",
+      "password": "password123",
+      "role": "citizen",
+      "phone": "+91 91234 56789",
+      "area": "Central Zone"
+    },
+    {
+      "id": "usr_c_1791950090986",
+      "name": "ANISHA",
+      "email": "anisha.citizen@gmail.com",
+      "password": "anisha",
+      "role": "citizen",
+      "phone": "9176320707",
+      "area": "Zone 1 - Central Ward"
+    }
+  ],
+  "workers": [
+    {
+      "id": "usr_w1",
+      "name": "Ramesh Kumar",
+      "category": "Roads & Infrastructure",
+      "phone": "+91 99887 76655",
+      "activeTasks": 2,
+      "completedTasks": 45,
+      "rating": 4.8
+    },
+    {
+      "id": "usr_w2",
+      "name": "Suresh Patel",
+      "category": "Streetlights & Electrical",
+      "phone": "+91 98777 66554",
+      "activeTasks": 1,
+      "completedTasks": 38,
+      "rating": 4.9
+    },
+    {
+      "id": "usr_w3",
+      "name": "Priya Sundaram",
+      "category": "Sanitation & Garbage",
+      "phone": "+91 97654 32109",
+      "activeTasks": 1,
+      "completedTasks": 52,
+      "rating": 4.7
+    }
+  ],
+  "categories": [
+    "Pothole",
+    "Broken Streetlight",
+    "Garbage Accumulation",
+    "Water Leakage",
+    "Open Drainage",
+    "Fallen Tree",
+    "Damaged Road"
+  ],
+  "complaints": [
+    {
+      "id": "CF-2026-1458",
+      "citizenId": "usr_c_1791949625626",
+      "citizenName": "Rohit Verma",
+      "category": "Pothole",
+      "title": "Pothole near Rohit house",
+      "description": "Deep road damage",
+      "locationName": "Indiranagar 100ft Rd",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "priority": "High",
+      "status": "Reported",
+      "createdAt": "2026-10-14T03:47:56.805Z",
+      "photoUrl": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?auto=format&fit=crop&w=800&q=80",
+      "assignedWorkerId": null,
+      "assignedWorkerName": null,
+      "verifiedAt": null,
+      "assignedAt": null,
+      "inProgressAt": null,
+      "resolutionPhotoUrl": null,
+      "resolvedAt": null,
+      "feedback": null,
+      "history": [
+        {
+          "status": "Reported",
+          "timestamp": "2026-10-14T03:47:56.805Z",
+          "note": "Complaint submitted by citizen."
+        }
+      ]
+    },
+    {
+      "id": "CF-2026-6087",
+      "citizenId": "usr_c1",
+      "citizenName": "Aarav Patel",
+      "category": "Broken Streetlight",
+      "title": "Dangerous Pothole on 10th Main RoadPothole on 10th Main Road",
+      "description": "Deep crater-like pothole near Indiranagar 10th Main junction creating severe hazard for commuters.Severe pothole causing traffic issues and hazards",
+      "locationName": "MG Road Metro Junction, Gate 2, Beng10th Main Road, Indiranagar10th Main Road, Indiranagar, Bengalurualuru",
+      "lat": 12.9756,
+      "lng": 77.6066,
+      "priority": "High",
+      "status": "Assigned",
+      "createdAt": "2026-09-09T16:14:42.706Z",
+      "photoUrl": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=800&q=80",
+      "assignedWorkerId": "usr_w3",
+      "assignedWorkerName": "Priya Sundaram",
+      "verifiedAt": "2026-09-09T16:18:30.134Z",
+      "assignedAt": "2026-09-09T16:24:37.274Z",
+      "inProgressAt": null,
+      "resolutionPhotoUrl": null,
+      "resolvedAt": null,
+      "feedback": null,
+      "history": [
+        {
+          "status": "Reported",
+          "timestamp": "2026-09-09T16:14:42.706Z",
+          "note": "Complaint submitted by citizen."
+        },
+        {
+          "status": "Verified",
+          "timestamp": "2026-09-09T16:18:30.134Z",
+          "note": "Status updated to Verified by Rajesh Verma (Officer)"
+        },
+        {
+          "status": "Assigned",
+          "timestamp": "2026-09-09T16:23:05.609Z",
+          "note": "Assigned to worker Suresh Patel by Admin."
+        },
+        {
+          "status": "Assigned",
+          "timestamp": "2026-09-09T16:24:37.274Z",
+          "note": "Assigned to worker Priya Sundaram by Admin."
+        }
+      ]
+    },
+    {
+      "id": "CF-2026-8941",
+      "citizenId": "usr_c1",
+      "citizenName": "Aarav Patel",
+      "category": "Pothole",
+      "title": "Large Pothole near MG Road Metro Junction",
+      "description": "Severe pothole created after heavy rains causing dangerous traffic congestion and accidents for two-wheelers.",
+      "locationName": "MG Road Metro Station, Gate 2, Bengaluru",
+      "lat": 12.9756,
+      "lng": 77.6066,
+      "priority": "High",
+      "status": "In Progress",
+      "createdAt": "2026-09-08T09:30:00.000Z",
+      "photoUrl": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?auto=format&fit=crop&w=800&q=80",
+      "assignedWorkerId": "usr_w1",
+      "assignedWorkerName": "Ramesh Kumar",
+      "verifiedAt": "2026-09-08T11:00:00.000Z",
+      "assignedAt": "2026-09-08T11:15:00.000Z",
+      "inProgressAt": "2026-09-09T08:00:00.000Z",
+      "resolutionPhotoUrl": null,
+      "resolvedAt": null,
+      "feedback": null,
+      "history": [
+        {
+          "status": "Reported",
+          "timestamp": "2026-09-08T09:30:00.000Z",
+          "note": "Complaint logged by Citizen"
+        },
+        {
+          "status": "Verified",
+          "timestamp": "2026-09-08T11:00:00.000Z",
+          "note": "Verified by Admin Rajesh Verma"
+        },
+        {
+          "status": "Assigned",
+          "timestamp": "2026-09-08T11:15:00.000Z",
+          "note": "Assigned to Worker Ramesh Kumar"
+        },
+        {
+          "status": "In Progress",
+          "timestamp": "2026-09-09T08:00:00.000Z",
+          "note": "Worker dispatched to site with tar mixture"
+        }
+      ]
+    },
+    {
+      "id": "CF-2026-8940",
+      "citizenId": "usr_c2",
+      "citizenName": "Vikram Mehta",
+      "category": "Broken Streetlight",
+      "title": "Dark Stretch - 3 Non-functional Streetlights on 4th Main",
+      "description": "The streetlights have been flickering and completely off for 4 days. Safety concern for pedestrians at night.",
+      "locationName": "4th Main Road, Indiranagar, Bengaluru",
+      "lat": 12.9784,
+      "lng": 77.6408,
+      "priority": "Medium",
+      "status": "Resolved",
+      "createdAt": "2026-09-06T14:20:00.000Z",
+      "photoUrl": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=800&q=80",
+      "assignedWorkerId": "usr_w2",
+      "assignedWorkerName": "Suresh Patel",
+      "verifiedAt": "2026-09-06T15:00:00.000Z",
+      "assignedAt": "2026-09-06T15:30:00.000Z",
+      "inProgressAt": "2026-09-07T09:00:00.000Z",
+      "resolutionPhotoUrl": "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=800&q=80",
+      "resolvedAt": "2026-09-07T12:30:00.000Z",
+      "feedback": {
+        "rating": 5,
+        "comment": "Prompt response! Replaced LED bulbs and wiring within 24 hours. Great work by Suresh!",
+        "submittedAt": "2026-09-07T14:00:00.000Z"
+      },
+      "history": [
+        {
+          "status": "Reported",
+          "timestamp": "2026-09-06T14:20:00.000Z",
+          "note": "Complaint logged by Citizen"
+        },
+        {
+          "status": "Verified",
+          "timestamp": "2026-09-06T15:00:00.000Z",
+          "note": "Verified by Admin Rajesh Verma"
+        },
+        {
+          "status": "Assigned",
+          "timestamp": "2026-09-06T15:30:00.000Z",
+          "note": "Assigned to Worker Suresh Patel"
+        },
+        {
+          "status": "In Progress",
+          "timestamp": "2026-09-07T09:00:00.000Z",
+          "note": "Electrical line inspection underway"
+        },
+        {
+          "status": "Resolved",
+          "timestamp": "2026-09-07T12:30:00.000Z",
+          "note": "Replaced LED luminaire and restored power line"
+        }
+      ]
+    },
+    {
+      "id": "CF-2026-8939",
+      "citizenId": "usr_c1",
+      "citizenName": "Aarav Patel",
+      "category": "Garbage Accumulation",
+      "title": "Overflowing Waste Dump behind Residential Complex",
+      "description": "Garbage has accumulated for over 3 days without collection, spreading foul odor and attracting stray animals.",
+      "locationName": "12th Cross, Koramangala 4th Block, Bengaluru",
+      "lat": 12.9345,
+      "lng": 77.6245,
+      "priority": "Urgent",
+      "status": "Reported",
+      "createdAt": "2026-09-09T18:10:00.000Z",
+      "photoUrl": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=800&q=80",
+      "assignedWorkerId": null,
+      "assignedWorkerName": null,
+      "verifiedAt": null,
+      "assignedAt": null,
+      "inProgressAt": null,
+      "resolutionPhotoUrl": null,
+      "resolvedAt": null,
+      "feedback": null,
+      "history": [
+        {
+          "status": "Reported",
+          "timestamp": "2026-09-09T18:10:00.000Z",
+          "note": "Complaint logged by Citizen"
+        }
+      ]
+    },
+    {
+      "id": "CF-2026-8938",
+      "citizenId": "usr_c2",
+      "citizenName": "Vikram Mehta",
+      "category": "Water Leakage",
+      "title": "Pipeline Burst leaking clean water on public road",
+      "description": "Water main pipe rupture leaking thousands of liters per hour. Submerging nearby footpaths.",
+      "locationName": "Near Jayanagar Shopping Complex, Bengaluru",
+      "lat": 12.925,
+      "lng": 77.5938,
+      "priority": "Urgent",
+      "status": "Verified",
+      "createdAt": "2026-09-09T14:00:00.000Z",
+      "photoUrl": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?auto=format&fit=crop&w=800&q=80",
+      "assignedWorkerId": null,
+      "assignedWorkerName": null,
+      "verifiedAt": "2026-09-09T15:00:00.000Z",
+      "assignedAt": null,
+      "inProgressAt": null,
+      "resolutionPhotoUrl": null,
+      "resolvedAt": null,
+      "feedback": null,
+      "history": [
+        {
+          "status": "Reported",
+          "timestamp": "2026-09-09T14:00:00.000Z",
+          "note": "Complaint logged by Citizen"
+        },
+        {
+          "status": "Verified",
+          "timestamp": "2026-09-09T15:00:00.000Z",
+          "note": "Marked Verified by Admin"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1791949676805",
+      "recipientRole": "admin",
+      "title": "New Complaint Logged",
+      "message": "New High priority complaint (CF-2026-1458) submitted in Pothole.",
+      "timestamp": "2026-10-14T03:47:56.805Z",
+      "read": false
+    },
+    {
+      "id": "notif_c_1788971077274",
+      "recipientRole": "citizen",
+      "recipientId": "usr_c1",
+      "title": "Worker Assigned",
+      "message": "Worker Priya Sundaram has been assigned to resolve CF-2026-6087.",
+      "timestamp": "2026-09-09T16:24:37.274Z",
+      "read": false
+    },
+    {
+      "id": "notif_w_1788971077274",
+      "recipientRole": "worker",
+      "recipientId": "usr_w3",
+      "title": "Task Assigned",
+      "message": "You have been assigned complaint CF-2026-6087: Dangerous Pothole on 10th Main RoadPothole on 10th Main Road",
+      "timestamp": "2026-09-09T16:24:37.274Z",
+      "read": false
+    },
+    {
+      "id": "notif_c_1788970985609",
+      "recipientRole": "citizen",
+      "recipientId": "usr_c1",
+      "title": "Worker Assigned",
+      "message": "Worker Suresh Patel has been assigned to resolve CF-2026-6087.",
+      "timestamp": "2026-09-09T16:23:05.609Z",
+      "read": false
+    },
+    {
+      "id": "notif_w_1788970985609",
+      "recipientRole": "worker",
+      "recipientId": "usr_w2",
+      "title": "Task Assigned",
+      "message": "You have been assigned complaint CF-2026-6087: Dangerous Pothole on 10th Main RoadPothole on 10th Main Road",
+      "timestamp": "2026-09-09T16:23:05.609Z",
+      "read": false
+    },
+    {
+      "id": "notif_1788970710134",
+      "recipientRole": "citizen",
+      "recipientId": "usr_c1",
+      "title": "Status: Verified",
+      "message": "Your complaint CF-2026-6087 status changed to \"Verified\".",
+      "timestamp": "2026-09-09T16:18:30.134Z",
+      "read": false
+    },
+    {
+      "id": "notif_1788970482706",
+      "recipientRole": "admin",
+      "title": "New Complaint Logged",
+      "message": "New High priority complaint (CF-2026-6087) submitted in Broken Streetlight.",
+      "timestamp": "2026-09-09T16:14:42.706Z",
+      "read": false
+    },
+    {
+      "id": "notif_1",
+      "recipientRole": "citizen",
+      "recipientId": "usr_c1",
+      "title": "Status Update",
+      "message": "Your complaint CF-2026-8941 is now In Progress by Ramesh Kumar.",
+      "timestamp": "2026-09-09T08:00:00.000Z",
+      "read": false
+    },
+    {
+      "id": "notif_2",
+      "recipientRole": "worker",
+      "recipientId": "usr_w1",
+      "title": "New Task Assigned",
+      "message": "Admin assigned you Complaint CF-2026-8941: Large Pothole near MG Road.",
+      "timestamp": "2026-09-08T11:15:00.000Z",
+      "read": false
+    }
+  ]
+}
